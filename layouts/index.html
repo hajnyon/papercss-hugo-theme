@@ -3,13 +3,27 @@
 <h1>{{ .Title }}</h1>
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
-  <h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
+<h2 class="post-list {{ if ne .Params.show_summary false }}summary{{ end }}">
     <a href="{{ .Permalink }}">
-      {{ .Title }}
+        {{ .Title }}
     </a>
-  </h2>
-  {{ if ne .Params.show_summary false }}
-    {{ .Summary }}
-  {{ end }}
-{{ end }}  
+</h2>
+{{ if ne .Params.show_summary false }}
+{{ .Summary }}
 {{ end }}
+
+<p>
+    {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+    {{ .PublishDate.Format $dateFormat }}
+</p>
+
+<p style="text-align: right;">
+    {{ with .Params.tags }}
+        {{ range . }}
+        <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+    {{ end }}
+</p>
+{{ end }}
+{{ end }}
+
