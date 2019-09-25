@@ -4,7 +4,7 @@
 
 A Hugo theme made with PaperCSS, the less formal CSS framework.
 
-## Fork changes
+## Fork changes made
 
 -   added date and tags to main list of posts
 -   centered images and twitter embedded widget
@@ -13,7 +13,7 @@ A Hugo theme made with PaperCSS, the less formal CSS framework.
 ## Table of contents
 
 - [PaperCSS](#papercss)
-  - [Fork changes](#fork-changes)
+  - [Fork changes made](#fork-changes-made)
   - [Table of contents](#table-of-contents)
   - [Demo](#demo)
   - [Minimum Hugo version](#minimum-hugo-version)
