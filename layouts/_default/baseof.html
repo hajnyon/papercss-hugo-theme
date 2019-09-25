@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
-  {{ partial "head.html" . }}
-  <body>
-    <div class="container paper">
-      {{ partial "nav.html" . }}
-      <main>
-        {{ block "main" . }}{{ end }}
-      </main>
-      {{ partial "google-analytics-async.html" . }}
-  </div>
-  </body>
+    {{ partial "head.html" . }}
+    <body>
+        <div class="container paper">
+            {{ partial "nav.html" . }}
+            <main class="margin-bottom-large">{{ block "main" . }}{{ end }}</main>
+            <footer class=" margin-large">{{ partial "footer.html" . }}</footer>
+            {{ partial "google-analytics-async.html" . }}
+        </div>
+    </body>
 </html>
