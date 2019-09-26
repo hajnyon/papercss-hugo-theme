@@ -12,18 +12,19 @@
 {{ .Summary }}
 {{ end }}
 
-<p>
-    {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
-    {{ .PublishDate.Format $dateFormat }}
-</p>
-
-<p style="text-align: right;">
-    {{ with .Params.tags }}
-        {{ range . }}
-        <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+<div class="row margin-top">
+    <div class="sm-12 md-6 col">
+        {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+        {{ .PublishDate.Format $dateFormat }}
+    </div>
+    <div class="sm-12 md-6 col align-right">
+        {{ with .Params.tags }}
+            {{ range . }}
+            <a href="{{ "tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
         {{ end }}
-    {{ end }}
-</p>
+    </div>
+</div>
 {{ end }}
 {{ end }}
 
