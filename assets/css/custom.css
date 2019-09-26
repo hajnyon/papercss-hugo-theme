@@ -58,3 +58,7 @@ twitter-widget {
 footer > div > .col {
     text-align: center;
 }
+
+.align-right {
+    text-align: right;
+}
