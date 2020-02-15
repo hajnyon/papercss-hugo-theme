@@ -1,0 +1,12 @@
+<!-- links -->
+<base href="{{ .Permalink }}">
+<link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+
+<!-- rss/xml -->
+{{ with .OutputFormats.Get "RSS" }}
+<link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+<link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}" />
+{{ end }}
+
+<!-- manifest -->
+<link rel="manifest" href="{{ .Site.BaseURL }}site.webmanifest" />
