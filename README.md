@@ -6,27 +6,29 @@ A Hugo theme made with PaperCSS, the less formal CSS framework.
 
 ## Fork changes made
 
+-   added og image
+-   fixed responsive headings sizes
 -   added date and tags to main list of posts
 -   centered images and twitter embedded widget
 -   added footer
 
 ## Table of contents
 
-- [PaperCSS](#papercss)
-  - [Fork changes made](#fork-changes-made)
-  - [Table of contents](#table-of-contents)
-  - [Demo](#demo)
-  - [Minimum Hugo version](#minimum-hugo-version)
-  - [Installation](#installation)
-  - [Updating](#updating)
-  - [Run example site](#run-example-site)
-  - [Configuration](#configuration)
-  - [Favicons](#favicons)
-  - [Shortcodes](#shortcodes)
-  - [Disable toc for a blog post](#disable-toc-for-a-blog-post)
-  - [Disable summary for a blog post](#disable-summary-for-a-blog-post)
-  - [Getting help](#getting-help)
-  - [Credits](#credits)
+-   [PaperCSS](#papercss)
+    -   [Fork changes made](#fork-changes-made)
+    -   [Table of contents](#table-of-contents)
+    -   [Demo](#demo)
+    -   [Minimum Hugo version](#minimum-hugo-version)
+    -   [Installation](#installation)
+    -   [Updating](#updating)
+    -   [Run example site](#run-example-site)
+    -   [Configuration](#configuration)
+    -   [Favicons](#favicons)
+    -   [Shortcodes](#shortcodes)
+    -   [Disable toc for a blog post](#disable-toc-for-a-blog-post)
+    -   [Disable summary for a blog post](#disable-summary-for-a-blog-post)
+    -   [Getting help](#getting-help)
+    -   [Credits](#credits)
 
 ## Demo
 
