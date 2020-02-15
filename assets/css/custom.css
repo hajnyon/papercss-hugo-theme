@@ -75,6 +75,11 @@ h6 {
     }
 }
 
+/* 404 heading */
+h1.not-found {
+    font-size: 2rem;
+}
+
 /* toc */
 .toc {
     padding: 1em;
@@ -92,6 +97,10 @@ p > img {
 /* center twitter embedded */
 twitter-widget {
     margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 footer > div > .col {

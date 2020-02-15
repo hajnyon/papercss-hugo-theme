@@ -1,0 +1,16 @@
+{{ define "main"}}
+    <main id="main">
+      <div>
+          <div class="alert alert-danger margin-top">
+            <h1 id="title" class="not-found">
+                404 - requested page does not exist.
+            </h1>
+        </div>
+        <div class="row flex-center">
+            <div class="sm-4 col text-center">
+                <a href="{{ "/" | relURL }}">Go to post list</a>
+            </div>
+          </div>
+      </div>
+    </main>
+{{ end }}
