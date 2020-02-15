@@ -8,7 +8,7 @@
 
     {{ if .IsHome }} {{ with .Site.Params.homeMetaContent }}
     <meta name="description" content="{{ . | plainify }}" />
-    {{ end }} {{ with .Params.image }}
+    {{ end }} {{ with .Site.Params.image }}
     <meta itemprop="image" content="{{ . | absURL }}" />
     <meta property="og:image" content="{{ . | absURL }}" />
     {{end}} {{ end }}
