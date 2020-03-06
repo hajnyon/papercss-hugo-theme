@@ -103,10 +103,20 @@ twitter-widget {
     text-align: center;
 }
 
+.full-width {
+    width: 100%;
+}
+
 footer > div > .col {
     text-align: center;
 }
 
 .align-right {
     text-align: right;
+}
+
+.icon {
+    float: left;
+    width: 20px;
+    height: 20px;
 }

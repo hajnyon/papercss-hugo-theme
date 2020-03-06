@@ -6,6 +6,7 @@ A Hugo theme made with PaperCSS, the less formal CSS framework.
 
 ## Fork changes made
 
+-   disqus comments area added
 -   404 page styled
 -   added meta tags and links by https://www.skcript.com/svr/perfect-seo-meta-tags-with-hugo/
 -   fixed responsive headings sizes
